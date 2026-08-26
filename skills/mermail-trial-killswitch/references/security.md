@@ -12,7 +12,8 @@ Read this before searching mail, opening a message, or mentioning a cancel/pay U
 
 - Use exactly one mailbox the operator named, or the existing trial-killswitch mailbox.
 - Do not list or search other mailboxes.
-- Do not enable automations or task triagers for this skill.
+- List and search **inbox only**. Exclude folder `draft`, `sent`, and `trash`. Skip `Re:` subjects unless they are the only candidate. Prefer the original inbound message over auto-draft replies.
+- Do not enable automations or task triagers for this skill. Leave `automationsEnabled=false`.
 
 ## External effects
 
